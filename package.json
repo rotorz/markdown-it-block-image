@@ -1,0 +1,31 @@
+{
+  "name": "markdown-it-block-image",
+  "version": "0.0.1",
+  "description": "Plugin for markdown-it that detects and outputs block level images.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rotorz/markdown-it-block-image"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin",
+    "image"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run test-lint && npm run test-spec",
+    "test-lint": "eslint .",
+    "test-spec": "mocha ./test/spec/ --recursive"
+  },
+  "author": "Rotorz Limited",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-google": "^0.6.0",
+    "markdown-it": "^6.0.4",
+    "mocha": "^2.3.4",
+    "mocha-testdata": "^1.1.2",
+    "should": "^8.0.2"
+  }
+}
