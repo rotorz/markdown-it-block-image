@@ -39,22 +39,22 @@ $ npm install --save markdown-it-block-image
 ## Usage
 
 ```javascript
-var md = require('markdown-it')();
-var imageBlockPlugin = require('markdown-it-block-image');
+var md = require("markdown-it")();
+var blockImagePlugin = require("markdown-it-block-image");
 
-md.use(imageBlockPlugin, {
+md.use(blockImagePlugin, {
   outputContainer: true,
   containerClassName: "image-container"
 });
 
-var input = '![example block image](http://example.com/img/example.png)';
+var input = "![example block image](http://example.com/img/example.png)";
 var output = md.render(input);
 
 console.log(output);
 ```
 
 
-### Options
+## Options
 
 Option               | Type               | Default         | Description
 :--------------------|:-------------------|:----------------|:---------------------------------------------------------------------------------------------------------------------
