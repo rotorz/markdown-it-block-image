@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-block-image",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for markdown-it that detects and outputs block level images.",
   "repository": {
     "type": "git",
