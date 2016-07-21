@@ -17,14 +17,14 @@ Here is an inline image: ![example inline image](http://example.com/img/example.
 Output (with default options):
 ```html
 <p>Here is an inline image: <img src="http://example.com/img/example.png" alt="example inline image">.</p>
-<img src="http://example.com/img/example.png" alt="example inline image">
+<img src="http://example.com/img/example.png" alt="example block image">
 ```
 
 Output (with a container element and classes):
 ```html
 <p>Here is an inline image: <img src="http://example.com/img/example.png" alt="example inline image">.</p>
 <div class="image-container">
-  <img src="http://example.com/img/example.png" alt="example inline image">
+  <img src="http://example.com/img/example.png" alt="example block image">
 </div>
 ```
 
